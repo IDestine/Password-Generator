@@ -70,7 +70,7 @@ function BuildPasswordCharacterArray() {
     );
 
     if (confirmSpecialCharacter) {
-      passwordCharacters = passwordCharacters.concat(specialChar);
+      passwordCharacters = passwordCharacters.concat(specialCharacter);
     }
     if (confirmLowercase) {
       passwordCharacters = passwordCharacters.concat(alphaLower);
