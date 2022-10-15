@@ -52,6 +52,15 @@ function SetPasswordLength() {
 }
 
 // Build available characters array 
-
+function BuildPasswordCharacterArray() {
+  var passwordCharacters ="";
+  while(passwordCharacters.length<1){
+    var confirmSpecialCharacter = confirm("Click OK to confirm you would like to include special characters in your password");
+    var confirmNumericCharacter = confirm("Click OK to confirm you would like to include numeric characters in your password");
+    var confirmLowercase = confirm("Click OK to confirm you would like to include lowercase characters in your password");
+    var confirmUppercase = confirm("Click OK to confirm you would like to include uppercase characters in your password");
+  
+    if(confirmSpecialCharacter) {
+  }
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
