@@ -5,6 +5,20 @@ const specialCharacter= "!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
 const alphaLower = "abcdefghijklmnopqrstuvwxyz"
 const alphaUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
+function generatePasssword() {
+
+  // Build Password using random characters
+  var newUserPassword = function(n, str){
+    var UserPassword = "":
+    for(var i=0; i<n; i++){
+      userPassword += str[Math.floor(Math.random() * str.length)];
+  }
+  return userPassword;
+  };
+
+  return newUserPassword;(SetPasswordLength(),BuildPasswordCharacterArray());
+}
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
