@@ -6,13 +6,14 @@ const alphaLower = "abcdefghijklmnopqrstuvwxyz";
 const alphaUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 function generatePassword() {
+
   // Build Password using random characters
   var newUserPassword = function (n, str) {
     var UserPassword = "";
     for (var i = 0; i < n; i++) {
-      userPassword += str[Math.floor(Math.random() * str.length)];
+      UserPassword += str[Math.floor(Math.random() * str.length)];
     }
-    return userPassword;
+    return UserPassword;
   };
 
   return newUserPassword;
