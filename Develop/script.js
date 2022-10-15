@@ -16,8 +16,7 @@ function generatePassword() {
     return UserPassword;
   };
 
-  return newUserPassword;
-  SetPasswordLength(), BuildPasswordCharacterArray();
+  return newUserPassword (SetPasswordLength(), BuildPasswordCharacterArray());
 }
 
 // Get references to the #generate element
