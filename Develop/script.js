@@ -1,5 +1,9 @@
 // Assignment code here
-
+// Password Arrays
+const number= "0123456789";
+const specialCharacter= "!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
+const alphaLower = "abcdefghijklmnopqrstuvwxyz"
+const alphaUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
