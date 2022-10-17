@@ -38,4 +38,4 @@ The remote site is used for display and hosted on GitHub Pages
 https://idestine.github.io/Password-Generator/
 ### Screenshot
 
-![Web Page Screenshot] image href="password generator screenshot.png"
+![Web Page Screenshot] 
